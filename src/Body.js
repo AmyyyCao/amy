@@ -2,6 +2,9 @@
 /* eslint-disable require-jsdoc */
 import React, {useState, useEffect} from 'react';
 import './App.css';
+import linkedin from './linkedin.png';
+import mailbox from './mailbox.png';
+import pfp from './pfp.jpeg';
 
 export default function Body() {
   const [showText, setShowText] = useState(false);
@@ -14,7 +17,7 @@ export default function Body() {
   return (
     <>
       <div className="App-body">
-        <img src="/pfp.jpeg" alt="Profile" style={{maxWidth: '12vw', marginBottom: 20}}/>
+        <img src={pfp} alt="Profile" style={{maxWidth: '12vw', marginBottom: 20}}/>
         {showText && (
           <div>Hi, I&apos;m Amy
             <div className="typing-cursor">|</div>
@@ -28,10 +31,10 @@ export default function Body() {
       </div>
       <div className="App-body-icons">
         <a href="https://www.linkedin.com/in/amyyycao">
-          <img src="/linkedin.png" alt="clickable"/>
+          <img src={linkedin} alt="clickable"/>
         </a>
         <a href="mailto:amyyy.cao@mail.utoronto.ca">
-          <img src="/mailbox.png" alt="clickable"/>
+          <img src={mailbox} alt="clickable"/>
         </a>
       </div>
 
