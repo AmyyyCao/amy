@@ -17,7 +17,7 @@ export default function Body() {
   return (
     <>
       <div className="App-body">
-        <img src={pfp} alt="Profile" style={{maxWidth: '12vw', marginBottom: 20}}/>
+        <img src={pfp} alt="Profile" style={{width: 185, marginBottom: 20}}/>
         {showText && (
           <div>Hi, I&apos;m Amy
             <div className="typing-cursor">|</div>
