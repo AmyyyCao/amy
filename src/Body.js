@@ -50,6 +50,7 @@ export default function Body() {
       <div className="App-body-icons">
         {showJoke && <div>
           Hip, Hip, Hooray!
+          <div style={{marginBottom: 40}}></div>
         </div>}
       </div>
     </>
