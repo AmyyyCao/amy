@@ -1,0 +1,195 @@
+.App {
+  vertical-align: middle;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.App-header {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.App-header li {
+  margin-right: 30px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.App-body {
+  font-size: xx-large;
+  padding-left: 20%;
+  padding-top: 15%;
+  font-weight: bold;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.App-body-small {
+  font-size: large;
+  font-weight: bold;
+  padding-left: 20%;
+  padding-right: 40%;
+}
+
+.App-body-icons {
+  display: flex;
+  margin-top: 20px;
+  padding-left: 20%;
+  flex-wrap: wrap;
+}
+
+.App-body-icons > div {
+  display: inline-flex;
+}
+
+.App-body-icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.App-body-icons img:hover {
+  opacity: 0.5;
+}
+
+.App-body-code-block {
+  display: inline;
+  padding: 0.1em 0.4em;
+  font-family: monospace;
+  font-size: 1em;
+  border-radius: 0.4em;
+  margin-right: 0.2em;
+}
+
+a[href] {
+  text-decoration: none;
+  color: black;
+}
+
+.weather-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typing-cursor {
+  display: inline-block;
+  vertical-align: middle;
+  animation: blink 1.5s infinite;
+}
+
+.joke-button {
+  background-color: white;
+  border: 2px solid #a5a5a5;
+  color: #a5a5a5;
+  padding: 1px 8px;
+  border-radius: 50px;
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  transition: background-color 0.2s ease;
+}
+
+.joke-button:hover {
+  background-color: #a5a5a5;
+  color: white;
+  cursor: pointer;
+}
+
+.Visuals-title {
+  font-size: xx-large;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 5%;
+}
+
+.Visuals-subtitle {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.Visuals-photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Visuals-photos img {
+  width: 70%;
+  height: auto;
+}
+
+.Visuals-caption {
+  font-weight: bold;
+  font-size: medium;
+  text-transform: lowercase;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+@keyframes run {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.chicken-emoji {
+  font-size: 3rem;
+  animation: run 1000s linear infinite;
+}
+
+.thoughts-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.page-header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: calc(33.33% - 30px); 
+  margin-bottom: 20px;
+}
+
+
+
+
