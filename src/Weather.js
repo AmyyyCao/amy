@@ -19,7 +19,7 @@ export default function Weather() {
   const temperature = Math.round(weather.main.temp);
   const iconCode = weather.weather[0].icon;
   const isCloudy = iconCode.includes('d');
-  const icon = isCloudy ? '☁️' : '☀️';
+  const icon = isCloudy ? '🌥️' : '🌞';
 
   return (
     <div className="App-header">
