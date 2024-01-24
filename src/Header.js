@@ -10,7 +10,7 @@ export default function Header() {
       <nav>
         <div className="App-header" style={{'margin-top': 20}}>
           <>
-            <li>visuals</li>
+            <li><Link to="visuals">visuals</Link></li>
             <li><Link to="/thoughts">thoughts</Link></li>
             <li><Weather /></li>
           </>
