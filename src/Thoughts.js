@@ -4,6 +4,7 @@ import './App.css';
 export default function Thoughts() {
     const items = [
         'Trust that solutions will reveal themselves when the time comes',
+        'You belong nowhere and everywhere',
         'Embrace radical self-responsibility for personal development',
         'Release past convictions to make room for the desired future self',
         'The best time to get started was yesterday, the second best is now',
@@ -23,8 +24,7 @@ export default function Thoughts() {
         'Appreciate your own company, solitude is peaceful',
         'Perhaps there\'s a lesson that you haven\'t discovered yet.',
         'Forgiveness is for your own well-being',
-        'Progress is not linear',
-        'Each person holds their own interpretation of the truth; opinions are not objective.'
+        'Progress is not linear'
     ];
 
     return (
